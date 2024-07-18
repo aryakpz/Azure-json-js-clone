@@ -1,0 +1,437 @@
+{
+    "nav": {
+        "image": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31",
+        "team": "Teams",
+        "menu": [
+            {
+                "name": "Products",
+                "url": "#products",
+                "icon": "icons/down_arrow.png"
+            },
+            {
+                "name": "Features",
+                "url": "#Features",
+                "icon": "icons/down_arrow.png"
+            },
+            {
+                "name": "Pricing",
+                "url": "#pricing",
+                "icon": "icons/down_arrow.png"
+            },
+            {
+                "name": "Industries",
+                "url": "#industries",
+                "icon": "icons/down_arrow.png"
+            },
+            {
+                "name": "Resources",
+                "url": "#resources",
+                "icon": "icons/down_arrow.png"
+            },
+            {
+                "name": "Support",
+                "url": "#support",
+                "icon": "icons/down_arrow.png"
+            }
+        ],
+        "download": {
+            "name": "Download Teams",
+            "url": "#download"
+        },
+        "sign": {
+            "name": "Sign in",
+            "url": "#sign in"
+        }
+    },
+
+
+
+
+
+    "subhead": {
+        "busplan": {
+            "name": "Business plans",
+            "url": "#business"
+        },
+        "home": {
+            "name": "Home plans",
+            "url": "#home"
+        },
+        "microdata": " Find the right Microsoft Teams for your needs ",
+        "subdata": "Stay connected and share content any time to learn, plan, and innovate—together. Get more with Teams Essentials or get Teams online as part of Microsoft 365."
+    },
+
+
+
+
+
+
+
+
+    "cardsec": {
+        "cardone": {
+            "top": "Most popular",
+            "head": "Microsoft Teams Essentials",
+            "sub": "user/month",
+            "auto":"(Annual subscription—auto renews)",
+            "price": " Price does not include VAT.",
+            "buynow": "Buy now",
+            "amount":"£3.30 ",
+            "try": "Try free for one month",
+            
+            "tryimg":"icons/icons8-arrow-down-32.png",
+            "trial": "See trial terms",
+            "everything": "Everything offered in Microsoft Teams Essentials, plus:",
+            "datas": [
+                {
+                    "img": "icons/check.svg",
+                    "content": "Standard security"
+                },
+                {
+                    "img": "icons/check.svg",
+                    "content": "Up to 300 participants per meeting"
+                },
+                {
+                    "img": "icons/check.svg",
+                    "content": "10 GB of cloud storage per use"
+                },
+                {
+                    "img": "icons/check.svg",
+                    "content": "Phone and web support"
+                },
+                {
+                    "img": "icons/check.svg",
+                    "content": "Unlimited chat with coworkers and customers"
+                },
+                {
+                    "img": "icons/check.svg",
+                    "content": "File sharing, tasks, and polling"
+                },
+                {
+                    "img": "icons/check.svg",
+                    "content": "Data encryption for meetings, chats, calls, and files"
+                },
+                {
+                    "img": "icons/check.svg",
+                    "content": "Live captions in meetings (English)3"
+                },
+                {
+                    "img": "icons/check.svg",
+                    "content": "Microsoft Whiteboard"
+                },
+                {
+                    "img": "icons/check.svg",
+                    "content": "Hundreds of collaborative apps"
+                },
+                {
+                    "img": "icons/check.svg",
+                    "content": "Collaborative annotations in Teams meetings, so participants can contribute to shared content"
+                },
+                {
+                    "img": "icons/check.svg",
+                    "content": "Team meetings recordings with transcripts"
+                },
+                {
+                    "img": "icons/check.svg",
+                    "content": "Copilot for Microsoft 365, available as an add-on.*"
+                }
+            ],
+            "service": "Microsoft 365 apps and services ",
+            "apps": [
+                {
+                    "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Icon_Teams_75x75_1_RE3ahIB?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=95&fmt=png-alpha&fit=constrain",
+                    "url": "#teams",
+                    "data": "Teams"
+                }
+            ]
+
+
+        },
+
+
+
+
+
+
+
+
+
+        "cardtwo": {
+            "head": " Microsoft 365 Business Basic",
+            "amount":"£4.90 ",
+            "datas": [
+                {
+                    "img": "icons/check.svg",
+                    "content": "Identity, access, and user management for up to 300 employees"
+                },
+                {
+                    "img": "icons/check.svg",
+                    "content": "Custom business email (you@yourbusiness.com)"
+                },
+                {
+                    "img": "icons/check.svg",
+                    "content": "Web and mobile versions of Word, Excel, PowerPoint, and Outlook10"
+                },
+                {
+                    "img": "icons/check.svg",
+                    "content": "1 TB of cloud storage per employee"
+                },
+                {
+                    "img": "icons/check.svg",
+                    "content": " 10+ additional apps for your business needs (Bookings, Planner, Microsoft Forms, and others)  "
+                },
+                {
+                    "img": "icons/check.svg",
+                    "content": "Automatic spam and malware filtering"
+                },
+                {
+                    "img": "icons/check.svg",
+                    "content": "Data encryption for meetings, chats, calls, and files"
+                },
+                {
+                    "img": "icons/check.svg",
+                    "content": "Anytime phone and web support"
+                },
+                {
+                    "img": "icons/check.svg",
+                    "content": "Copilot for Microsoft 365, available as an add-on.*"
+                }
+            ],
+            "service": " Secure cloud services: ",
+
+            "apps": [
+                {
+                    "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Icon_Teams_75x75_1_RE3ahIB?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=95&fmt=png-alpha&fit=constrain",
+                    "url": "#teams",
+                    "data": "Teams"
+                },
+                {
+                    "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/BP-Exchange_RE46TV5?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fmt=png-alpha&fit=constrain",
+                    "url": "#exchange",
+                    "data": "Exchnage"
+                },
+                {
+                    "img":"https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Icon_OneDrive_75x75_0_RE39Ztq?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fmt=png-alpha&fit=constrain",                   
+                     "url": "#onedrive",
+                    "data": "OneDrive"
+                },
+                {
+                    "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/BP-SharePoint_RE46TUZ?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fmt=png-alpha&fit=constrain",                    
+                    "url": "#sharepoint",
+                    "data": "SharePoint"
+                }
+            ],
+
+
+
+            "web":" Web and mobile apps only:​ ",
+
+
+            "webapp":[
+                
+                {
+                    "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/BP-Outlook_RE47eLs?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fmt=png-alpha&fit=constrain",                    
+                    "url": "#outlook",
+                    "data": "Outlook"
+                },
+                {
+                    "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Icon_Word_75x75_RE3acu9?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fmt=png-alpha&fit=constrain",                    
+                    "url": "#word",
+                    "data": "Word"
+                },
+                {
+                    "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Icon_Excel_75x75_RE3a9Se?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fmt=png-alpha&fit=constrain",                   
+                     "url": "#excel",
+                    "data": "Excel"
+                },
+                {
+                    "img":"https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Icon_PowerPoint_75x75_RE3acud?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fmt=png-alpha&fit=constrain",                   
+                     "url": "#powerpoint",
+                    "data": "PowerPoint"
+                }
+            ]
+        },
+
+
+
+
+
+
+
+        "cardthree": {
+            "head": "Microsoft 365 Business Standard",
+            "amount":"£10.30 ",
+            "datas": [
+                {
+                    "img": "icons/check.svg",
+                    "content": "Desktop versions of Word, Excel, PowerPoint, and Outlook"
+                },
+                {
+                    "img": "icons/check.svg",
+                    "content": "Webinars with attendee registration and reporting"
+                },
+                {
+                    "img": "icons/check.svg",
+                    "content": "New: Collaborative workspaces to co-create using Microsoft Loop"
+                },
+                {
+                    "img": "icons/check.svg",
+                    "content": "New: Video editing and design tools with Clipchamp"
+                },
+                {
+                    "img": "icons/check.svg",
+                    "content": "Copilot for Microsoft 365, available as an add-on.*"
+                }
+            ],
+            "service": "Microsoft 365 apps and services ",
+
+            "apps": [
+                {
+                    "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Icon_Word_75x75_RE3acu9?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fmt=png-alpha&fit=constrain",                    
+                    "url": "#word",
+                    "data": "Word"
+                },
+                {
+                    "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Icon_Excel_75x75_RE3a9Se?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fmt=png-alpha&fit=constrain",                   
+                     "url": "#excel",
+                    "data": "Excel"
+                },
+               {
+                    "img":"https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Icon_PowerPoint_75x75_RE3acud?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fmt=png-alpha&fit=constrain",                   
+                     "url": "#powerpoint",
+                    "data": "PowerPoint"
+                },
+                {
+                    "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/BP-Outlook_RE47eLs?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fmt=png-alpha&fit=constrain",                    
+                    "url": "#outlook",
+                    "data": "Outlook"
+                },
+                {
+                    "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Icon_Teams_75x75_1_RE3ahIB?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=95&fmt=png-alpha&fit=constrain",
+                    "url": "#teams",
+                    "data": "Teams"
+                },
+                
+                {
+                    "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/BP-Exchange_RE46TV5?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fmt=png-alpha&fit=constrain",
+                    "url": "#exchange",
+                    "data": "Exchnage"
+                },
+                {
+                    "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/BP-SharePoint_RE46TUZ?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fmt=png-alpha&fit=constrain",                    
+                    "url": "#sharepoint",
+                    "data": "SharePoint"
+                },
+                {
+                    "img":"https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Icon_OneDrive_75x75_0_RE39Ztq?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fmt=png-alpha&fit=constrain",                   
+                     "url": "#onedrive",
+                    "data": "OneDrive"
+                },
+                 {
+                    "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/BP-SharePoint_RE46TUZ?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fmt=png-alpha&fit=constrain",                    
+                    "url": "#clipchamp",
+                    "data": "Clipchamp"
+                },
+                {
+                    "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/BP-SharePoint_RE46TUZ?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fmt=png-alpha&fit=constrain",                    
+                    "url": "#microsoft",
+                    "data": "Microsoft Loop"
+                }
+
+            ]
+        }
+    },
+
+    "table":[{
+        "img":"https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/checkmark-outline-svg-dark-blue?scl=1",
+        "data":"Partial checkmark icons indicate a feature is partially included"
+    },
+    {
+        "img":"https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/checkmark-svg-dark-blue?scl=1",
+        "data":"Checkmark icons indicate a feature is included"
+ 
+    }],
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    "premium":{
+    
+            "head":"Microsoft 365 Business Premium",
+            "amount":" £18.10",
+            "learn":" Learn More",
+
+
+            "subhead":"Includes everything in Microsoft 365 Business Standard, plus: ",
+
+           "data":[{
+            "img": "icons/check.svg",
+                "content":" Advanced security.  "
+           },
+           {"img": "icons/check.svg",
+            "content":"Access and data control."
+           },{"img": "icons/check.svg",
+            "content":"berthreat protection."
+           }
+            
+           ] 
+
+    },
+
+  
+
+"pilot":{
+    "head":"Add Copilot to your Microsoft plan*",
+    "link":"Sign in to add Copilot",
+    "url":"#copilot",
+    "p1":"to your existing Microsoft 365 business plan.",
+    "p2":"If you’re not an existing customer, buy a Microsoft 365 plan to get started.",
+    "btn1":"See Microsoft 365 pricing",
+    "btn2":"Learn more",
+    "image":"https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/copilot-visual-800x532-1?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=800&hei=532&qlt=95"
+},
+
+
+"frequency":{
+    "head":" Frequently asked questions ",
+    "link1":"Expand all",
+    "link2":"Collapse all",
+    "questions":[{
+        "img":"/home/vn-006/Desktop/azurejs/icons/arrow_right.png",
+        "ques":"What is the right plan for my business?"
+    },
+    {
+        "img":"/home/vn-006/Desktop/azurejs/icons/arrow_right.png",
+        "ques":"How can I access premium ?"bene
+    }]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
