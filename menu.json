@@ -43,11 +43,6 @@
             "url": "#sign in"
         }
     },
-
-
-
-
-
     "subhead": {
         "busplan": {
             "name": "Business plans",
@@ -60,26 +55,17 @@
         "microdata": " Find the right Microsoft Teams for your needs ",
         "subdata": "Stay connected and share content any time to learn, plan, and innovate—together. Get more with Teams Essentials or get Teams online as part of Microsoft 365."
     },
-
-
-
-
-
-
-
-
     "cardsec": {
         "cardone": {
             "top": "Most popular",
             "head": "Microsoft Teams Essentials",
             "sub": "user/month",
-            "auto":"(Annual subscription—auto renews)",
+            "auto": "(Annual subscription—auto renews)",
             "price": " Price does not include VAT.",
             "buynow": "Buy now",
-            "amount":"£3.30 ",
+            "amount": "£3.30 ",
             "try": "Try free for one month",
-            
-            "tryimg":"icons/icons8-arrow-down-32.png",
+            "tryimg": "icons/icons8-arrow-down-32.png",
             "trial": "See trial terms",
             "everything": "Everything offered in Microsoft Teams Essentials, plus:",
             "datas": [
@@ -144,21 +130,10 @@
                     "data": "Teams"
                 }
             ]
-
-
         },
-
-
-
-
-
-
-
-
-
         "cardtwo": {
             "head": " Microsoft 365 Business Basic",
-            "amount":"£4.90 ",
+            "amount": "£4.90 ",
             "datas": [
                 {
                     "img": "icons/check.svg",
@@ -198,7 +173,6 @@
                 }
             ],
             "service": " Secure cloud services: ",
-
             "apps": [
                 {
                     "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Icon_Teams_75x75_1_RE3ahIB?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=95&fmt=png-alpha&fit=constrain",
@@ -211,56 +185,43 @@
                     "data": "Exchnage"
                 },
                 {
-                    "img":"https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Icon_OneDrive_75x75_0_RE39Ztq?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fmt=png-alpha&fit=constrain",                   
-                     "url": "#onedrive",
+                    "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Icon_OneDrive_75x75_0_RE39Ztq?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fmt=png-alpha&fit=constrain",
+                    "url": "#onedrive",
                     "data": "OneDrive"
                 },
                 {
-                    "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/BP-SharePoint_RE46TUZ?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fmt=png-alpha&fit=constrain",                    
+                    "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/BP-SharePoint_RE46TUZ?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fmt=png-alpha&fit=constrain",
                     "url": "#sharepoint",
                     "data": "SharePoint"
                 }
             ],
-
-
-
-            "web":" Web and mobile apps only:​ ",
-
-
-            "webapp":[
-                
+            "web": " Web and mobile apps only:​ ",
+            "webapp": [
                 {
-                    "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/BP-Outlook_RE47eLs?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fmt=png-alpha&fit=constrain",                    
+                    "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/BP-Outlook_RE47eLs?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fmt=png-alpha&fit=constrain",
                     "url": "#outlook",
                     "data": "Outlook"
                 },
                 {
-                    "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Icon_Word_75x75_RE3acu9?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fmt=png-alpha&fit=constrain",                    
+                    "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Icon_Word_75x75_RE3acu9?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fmt=png-alpha&fit=constrain",
                     "url": "#word",
                     "data": "Word"
                 },
                 {
-                    "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Icon_Excel_75x75_RE3a9Se?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fmt=png-alpha&fit=constrain",                   
-                     "url": "#excel",
+                    "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Icon_Excel_75x75_RE3a9Se?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fmt=png-alpha&fit=constrain",
+                    "url": "#excel",
                     "data": "Excel"
                 },
                 {
-                    "img":"https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Icon_PowerPoint_75x75_RE3acud?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fmt=png-alpha&fit=constrain",                   
-                     "url": "#powerpoint",
+                    "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Icon_PowerPoint_75x75_RE3acud?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fmt=png-alpha&fit=constrain",
+                    "url": "#powerpoint",
                     "data": "PowerPoint"
                 }
             ]
         },
-
-
-
-
-
-
-
         "cardthree": {
             "head": "Microsoft 365 Business Standard",
-            "amount":"£10.30 ",
+            "amount": "£10.30 ",
             "datas": [
                 {
                     "img": "icons/check.svg",
@@ -284,25 +245,24 @@
                 }
             ],
             "service": "Microsoft 365 apps and services ",
-
             "apps": [
                 {
-                    "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Icon_Word_75x75_RE3acu9?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fmt=png-alpha&fit=constrain",                    
+                    "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Icon_Word_75x75_RE3acu9?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fmt=png-alpha&fit=constrain",
                     "url": "#word",
                     "data": "Word"
                 },
                 {
-                    "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Icon_Excel_75x75_RE3a9Se?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fmt=png-alpha&fit=constrain",                   
-                     "url": "#excel",
+                    "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Icon_Excel_75x75_RE3a9Se?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fmt=png-alpha&fit=constrain",
+                    "url": "#excel",
                     "data": "Excel"
                 },
-               {
-                    "img":"https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Icon_PowerPoint_75x75_RE3acud?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fmt=png-alpha&fit=constrain",                   
-                     "url": "#powerpoint",
+                {
+                    "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Icon_PowerPoint_75x75_RE3acud?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fmt=png-alpha&fit=constrain",
+                    "url": "#powerpoint",
                     "data": "PowerPoint"
                 },
                 {
-                    "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/BP-Outlook_RE47eLs?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fmt=png-alpha&fit=constrain",                    
+                    "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/BP-Outlook_RE47eLs?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fmt=png-alpha&fit=constrain",
                     "url": "#outlook",
                     "data": "Outlook"
                 },
@@ -311,127 +271,323 @@
                     "url": "#teams",
                     "data": "Teams"
                 },
-                
                 {
                     "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/BP-Exchange_RE46TV5?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fmt=png-alpha&fit=constrain",
                     "url": "#exchange",
                     "data": "Exchnage"
                 },
                 {
-                    "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/BP-SharePoint_RE46TUZ?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fmt=png-alpha&fit=constrain",                    
+                    "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/BP-SharePoint_RE46TUZ?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fmt=png-alpha&fit=constrain",
                     "url": "#sharepoint",
                     "data": "SharePoint"
                 },
                 {
-                    "img":"https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Icon_OneDrive_75x75_0_RE39Ztq?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fmt=png-alpha&fit=constrain",                   
-                     "url": "#onedrive",
+                    "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Icon_OneDrive_75x75_0_RE39Ztq?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fmt=png-alpha&fit=constrain",
+                    "url": "#onedrive",
                     "data": "OneDrive"
                 },
-                 {
-                    "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/BP-SharePoint_RE46TUZ?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fmt=png-alpha&fit=constrain",                    
+                {
+                    "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Icon-Clipchamp-25x25?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fmt=png-alpha&fit=constrain",
                     "url": "#clipchamp",
                     "data": "Clipchamp"
                 },
                 {
-                    "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/BP-SharePoint_RE46TUZ?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fmt=png-alpha&fit=constrain",                    
+                    "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/logo_msft_loop_36x36?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fmt=png-alpha&fit=constrain",
                     "url": "#microsoft",
                     "data": "Microsoft Loop"
                 }
-
             ]
         }
     },
-
-    "table":[{
-        "img":"https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/checkmark-outline-svg-dark-blue?scl=1",
-        "data":"Partial checkmark icons indicate a feature is partially included"
+    "table": [
+        {
+            "img": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/checkmark-outline-svg-dark-blue?scl=1",
+            "data": "Partial checkmark icons indicate a feature is partially included"
+        },
+        {
+            "img": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/checkmark-svg-dark-blue?scl=1",
+            "data": "Checkmark icons indicate a feature is included"
+        }
+    ],
+    "premium": {
+        "head": "Microsoft 365 Business Premium",
+        "amount": " £18.10",
+        "learn": " Learn More",
+        "subhead": "Includes everything in Microsoft 365 Business Standard, plus: ",
+        "data": [
+            {
+                "img": "icons/check.svg",
+                "content": " Advanced security.  "
+            },
+            {
+                "img": "icons/check.svg",
+                "content": "Access and data control."
+            },
+            {
+                "img": "icons/check.svg",
+                "content": "berthreat protection."
+            }
+        ]
     },
-    {
-        "img":"https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/checkmark-svg-dark-blue?scl=1",
-        "data":"Checkmark icons indicate a feature is included"
- 
-    }],
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    "premium":{
-    
-            "head":"Microsoft 365 Business Premium",
-            "amount":" £18.10",
-            "learn":" Learn More",
-
-
-            "subhead":"Includes everything in Microsoft 365 Business Standard, plus: ",
-
-           "data":[{
-            "img": "icons/check.svg",
-                "content":" Advanced security.  "
-           },
-           {"img": "icons/check.svg",
-            "content":"Access and data control."
-           },{"img": "icons/check.svg",
-            "content":"berthreat protection."
-           }
-            
-           ] 
-
+    "pilot": {
+        "head": "Add Copilot to your Microsoft plan*",
+        "link": "Sign in to add Copilot",
+        "url": "#copilot",
+        "p1": "to your existing Microsoft 365 business plan.",
+        "p2": "If you’re not an existing customer, buy a Microsoft 365 plan to get started.",
+        "btn1": "See Microsoft 365 pricing",
+        "btn2": "Learn more",
+        "image": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/copilot-visual-800x532-1?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=800&hei=532&qlt=95"
     },
-
-  
-
-"pilot":{
-    "head":"Add Copilot to your Microsoft plan*",
-    "link":"Sign in to add Copilot",
-    "url":"#copilot",
-    "p1":"to your existing Microsoft 365 business plan.",
-    "p2":"If you’re not an existing customer, buy a Microsoft 365 plan to get started.",
-    "btn1":"See Microsoft 365 pricing",
-    "btn2":"Learn more",
-    "image":"https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/copilot-visual-800x532-1?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=800&hei=532&qlt=95"
-},
-
-
-"frequency":{
-    "head":" Frequently asked questions ",
-    "link1":"Expand all",
-    "link2":"Collapse all",
-    "questions":[{
-        "img":"/home/vn-006/Desktop/azurejs/icons/arrow_right.png",
-        "ques":"What is the right plan for my business?"
+    "frequency": {
+        "head": " Frequently asked questions ",
+        "link1": "Expand all",
+        "link2": "Collapse all",
+        "questions": [
+            {
+                "img": "icons/arrow_right.png",
+                "ques": "What is the right plan for my business?"
+            },
+            {
+                "img": "icons/arrow_right.png",
+                "ques": "How can I access premium ?"
+            },
+            {
+                "img": "icons/arrow_right.png",
+                "ques": "How do I manage my Teams Essential subscription and invite others to join? Would a small or medium-sized business need to purchase multiple accounts for its employees?"
+            },
+            {
+                "img": "icons/arrow_right.png",
+                "ques": "What forms of payment can I use?"
+            },
+            {
+                "img": "icons/arrow_right.png",
+                "ques": "Once I upgrde, can I go back to the free  version of Teams?"
+            },
+            {
+                "img": "icons/arrow_right.png",
+                "ques": "Can I buy Teams Essential through a cloud solution provider?"
+            },
+            {
+                "img": "icons/arrow_right.png",
+                "ques": "Can I buy Teams Essential on behalf of a child?"
+            }
+        ]
     },
-    {
-        "img":"/home/vn-006/Desktop/azurejs/icons/arrow_right.png",
-        "ques":"How can I access premium ?"bene
-    }]
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    "options": {
+        "head": "See more options for Microsoft Teams ",
+        "content": [
+            {
+                "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/01-Meetings_0_RWGnOL?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=75&hei=75&qlt=75&fmt=png-alpha&fit=constrain",
+                "data": "Meeting",
+                "url": ""
+            },
+            {
+                "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/02-Calling-_1_icon_RWJKa9?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=75&hei=75&qlt=100&fmt=png-alpha&fit=constrain",
+                "data": "Teams Phone",
+                "url": ""
+            },
+            {
+                "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/03-Devices_1_icon_RWJreP?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=75&hei=75&qlt=100&fmt=png-alpha&fit=constrain",
+                "data": " Devices",
+                "url": ""
+            },
+            {
+                "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/04-Instant-messaging_1_icon_RWJKaf?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=75&hei=75&qlt=100&fmt=png-alpha&fit=constrain",
+                "data": "Instant Messaging",
+                "url": ""
+            },
+            {
+                "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/05-Apps_2_icon_RWJPJd?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=75&hei=75&qlt=100&fmt=png-alpha&fit=constrain",
+                "data": "Apps and workflows",
+                "url": ""
+            },
+            {
+                "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/06-Frontline_2_icon_RWJPJh?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=75&hei=75&qlt=100&fmt=png-alpha&fit=constrain",
+                "data": "Frontline workforce",
+                "url": ""
+            },
+            {
+                "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/07-Healthcare_2_icon_RWJPJq?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=75&hei=75&qlt=100&fmt=png-alpha&fit=constrain",
+                "data": "Healthcare",
+                "url": ""
+            },
+            {
+                "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/08-Privacy_2_icon_RWJN9g?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=75&hei=75&qlt=100&fmt=png-alpha&fit=constrain",
+                "data": "Security and complaince",
+                "url": ""
+            }
+        ]
+    },
+    "microsec": {
+        "head": "Get started with Microsoft Teams today ",
+        "btn1": "Sign In",
+        "btn2": "Download the App",
+        "link": "Go to the Teams homepage",
+        "img": "icons/arrow_right.png",
+        "rightsec": [
+            {
+                "img": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Home-1",
+                "data": {
+                    "head": " Home",
+                    "link": "Learn more",
+                    "arrow": "icons/arrow_right.png"
+                }
+            },
+            {
+                "img": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Business",
+                "data": {
+                    "head": "Business",
+                    "link": "Learn more",
+                    "arrow": "icons/arrow_right.png"
+                }
+            },
+            {
+                "img": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Enterprise",
+                "data": {
+                    "head": " Enterprice",
+                    "link": "Learn more",
+                    "arrow": "icons/arrow_right.png"
+                }
+            },
+            {
+                "img": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Education",
+                "data": {
+                    "head": "Education",
+                    "link": "Learn more",
+                    "arrow": "icons/arrow_right.png"
+                }
+            }
+        ]
+    },
+    "policies": [
+        " <span>[1]</span>  Cancellation policies for paid subscriptions may vary based on factors such as your customer status, your product, and your domain selections on Microsoft. You may cancel your subscription at any time in the Microsoft 365 admin center. Certain subscriptions may incur a cancellation fee.<a href=''>  Learn how to cancel your Microsoft 365 subscription.</a> When a subscription is canceled, all associated data will be deleted. <a href= ''>Learn more about data retention, deletion, and destruction in Microsoft 365.</a> ",
+        "<span >[2]</span>  After your one-month free trial, you will be charged the applicable subscription fee. Credit card required. Cancel anytime to stop future charges. ",
+        "<span >[3]</span> Live captions are available in the English language with Microsoft account identities and more than 30 additional languages with Microsoft Entra identities. For more information, see the <a href=''> live captions support article.</a> ",
+        " <span >[4]</span> This plan works with Office 2021, Office 2019, Office 2016, and Office 2013. Previous versions of Office, such as Office 2010, may work with Microsoft 365 with reduced functionality. This compatibility with Office does not include the Office 365 F3 plans. ",
+        " <span >[5]</span> For HD calling, compatible HD hardware and broadband connection with at least 4 Mbps are required. ",
+        " <span >[6]</span> OneDrive storage is used for file sharing in chat, so OneDrive storage limits apply. Qualifying plans for subscriptions of five or more users include unlimited personal cloud storage; all other plans are limited to 1 TB per user. Microsoft will initially provide 1 TB of OneDrive storage per user, which admins can increase to 5 TB per user. Contact Microsoft support to request additional storage. Storage up to 25 TB per user is provisioned in OneDrive. Beyond 25 TB, storage is provisioned as 25 TB SharePoint team sites to individual users. ",
+        " <span >[7]</span> Teams runs on a SharePoint in Microsoft 365 back end for file sharing, so SharePoint storage limits apply to the Files section within a team.<a href='' > Learn more about storage limits and specifications for Microsoft Teams. </a>",
+        " <span >[8]</span> Access and Publisher are available for PC only. ",
+        " <span >[9]</span>For more information, see the <a href ='' >Microsoft Online Service Level Agreement. </a>",
+        " <span >[10]</span>Availability of mobile apps varies by country/region. ",
+        "<span>[*]</span> Copilot for Microsoft 365 may not be available for all markets and languages. To purchase, customers must have a qualifying plan for <a href =''>enterprise</a> or <a href='' >business.</a>"
+    ],
+    "social": {
+        "data": "Follow Microsoft Teams ",
+        "image": [
+            {
+                "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Twitter-34?scl=1"
+            },
+            {
+                "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Instagram%202x?scl=1"
+            },
+            {
+                "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/YouTube%202x?scl=1"
+            },
+            {
+                "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Blog?scl=1"
+            }
+        ]
+    },
+    "footer": {
+        "sections": [
+            {
+                "title": "What's New",
+                "data": [
+                    " Surface Pro",
+                    "Surface Laptop",
+                    "Surface Laptop Studio 2",
+                    "Surface Laptop Go 3",
+                    "Microsoft Copilot",
+                    "AI in Windows",
+                    "Microsoft 365",
+                    "Windows 11 apps"
+                ]
+            },
+            {
+                "title": "Microsoft",
+                "data": [
+                    "Account profile",
+                    "Download Center",
+                    "Microsoft Store Support",
+                    "Returns",
+                    "Order tracking",
+                    "Microsoft Experience Centre",
+                    "Recycling",
+                    "Microsoft Store Promise"
+                ]
+            },
+            {
+                "title": "Education",
+                "data": [
+                    " Microsoft in education",
+                    " Devices for education",
+                    " Microsoft Teams for Education",
+                    " Microsoft 365 Education",
+                    "Office Education",
+                    " Educator training and development",
+                    " Deals for students and parents",
+                    "Azure for students"
+                ]
+            },
+            {
+                "title": "Business",
+                "data": [
+                    "Microsoft Cloud",
+                    "Microsoft Security",
+                    "Azure",
+                    "Dynamics 365",
+                    "Microsoft 365",
+                    "Copilot for Microsoft 365",
+                    "Microsoft Teams",
+                    "Small Business"
+                ]
+            },
+            {
+                "title": "Developer & IT",
+                "data": [
+                    "Developer Center",
+                    "Documentation",
+                    "Microsoft Learn",
+                    "Microsoft Tech Community",
+                    "Azure Marketplace",
+                    "AppSource",
+                    "Microsoft Power Platform",
+                    "Visual Studio"
+                ]
+            },
+            {
+                "title": "  Company",
+                "data": [
+                    "Careers",
+                    "About Microsoft",
+                    "Company news",
+                    "Privacy at Microsoft",
+                    "Investors",
+                    "Sustainability"
+                ]
+            }
+        ]
+    },
+    "footerbottom": {
+        "left": {
+            "img1": "icons/world.png",
+            "data1": "English (India)",
+            "img2": "icons/tick-n-cross.svg",
+            "data2": " Your Privacy Choices",
+            "data3": "Consumer Health Privacy"
+        },
+        "right": [
+            "Contact Microsoft",
+            " Privacy",
+            "Terms of use",
+            "Trademarks",
+            "About our ads",
+            " EU Compliance DoCs",
+            "EU Contract Summary",
+            "Regulatory reporting",
+            " © Microsoft 2024"
+        ]
+    }
 }

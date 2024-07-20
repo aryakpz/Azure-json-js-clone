@@ -122,7 +122,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 cardtwoh.innerHTML = data.cardsec.cardtwo.head
                 cardtwohead.appendChild(cardtwoh)
 
-               
+
                 const spantwo = document.createElement('span');
 
                 spantwo.innerHTML = `
@@ -245,7 +245,8 @@ document.addEventListener('DOMContentLoaded', async () => {
                 cardthreehead.appendChild(cardthreebutton)
 
                 const cardthreetry = document.createElement('h3')
-                cardthreetry.innerHTML = `${data.cardsec.cardone.try} <img src="${data.cardsec.cardone.tryimg}">`
+                cardthreetry.innerHTML = `${data.cardsec.cardone.try}
+                 <img src="${data.cardsec.cardone.tryimg}">`
                 cardthreehead.appendChild(cardthreetry)
 
                 const cardthreetrial = document.createElement('h6')
@@ -286,114 +287,280 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 
 
-//   table section    ================================
-      
+                //   table section    ================================
 
 
 
-    //    const tabledata =document.querySelector('.tabledata')
 
-    //    data.table.forEach(item =>{
-    //     const tdatas =document.createElement('li');
-    //     tdatas.innerHTML=`<img src="${item.img}"> ${item.data}`
+                const tabledata = document.querySelector('.tabledata')
 
-    //     tdatas.appendChild(tabledata)
-      
-    //    })
+                data.table.forEach(item => {
+                    const tdatas = document.createElement('li');
+                    tdatas.innerHTML = ` <span><img src="${item.img}"> ${item.data}</span>`
 
-    //      const tableone =document.querySelector('.th2')
+                    tabledata.appendChild(tdatas)
 
-    //      const tabletop = document.querySelector(".th2 .cardtop")
-    //      tabletop.innerHTML = data.cardsec.cardone.top
-    //     tabletop.innerHTML = data.table.data
+                })
+                // first table
 
+                const tableone = document.querySelector('.popularcard .card.one')
 
-    //      const tableonehead = document.querySelector(".th2 .cardhead")
-
-    //      const tonehead = document.createElement('h2')
-    //      tonehead.innerHTML = data.cardsec.cardone.head
-    //      tableonehead.appendChild(tonehead)
-
-    //      const tonespan = document.createElement('span');
-
-    //      tonespan.innerHTML = `
-    //           <span class="amount">${data.cardsec.cardone.amount}</span>
-    //            ${data.cardsec.cardone.sub}
-    //          `;
-    //      tonehead.appendChild(tonespan);
-
-    //      const toneprice = document.createElement('h4')
-    //      toneprice.innerHTML = data.cardsec.cardone.price
-    //      tableonehead.appendChild(toneprice)
+                const tabletop = document.querySelector(".popularcard .card.one .cardtop")
+                tabletop.innerHTML = data.cardsec.cardone.top
 
 
 
-    //      const tonebutton = document.createElement('button')
-    //      tonebutton.innerHTML = data.cardsec.cardone.buynow
-    //      tableonehead.appendChild(tonehead)
+                const tableonehead = document.querySelector(".popularcard .card.one .cardhead")
+
+                const tonehead = document.createElement('h2')
+                tonehead.innerHTML = data.cardsec.cardone.head
+
+
+
+                tableonehead.appendChild(tonehead)
+
+
+
+                const tonespan = document.createElement('span');
+
+                tonespan.innerHTML = `
+                          <span class="amount">${data.cardsec.cardone.amount}</span>
+                           ${data.cardsec.cardone.sub}`;
+                tableonehead.appendChild(tonespan);
 
 
 
 
 
-    // premium ====================================
-   const premium =document.querySelector(".pre1")
-
-   const prehead=document.createElement('h2')
-   prehead.innerHTML=  data.premium.head
-   premium.appendChild(prehead)
+                const toneauto = document.createElement('p')
+                toneauto.innerHTML = data.cardsec.cardone.auto
+                tableonehead.appendChild(toneauto)
 
 
+                const toneprice = document.createElement('h4')
+                toneprice.innerHTML = data.cardsec.cardone.price
+
+                tableonehead.appendChild(toneprice)
 
 
-   const  prespan = document.createElement('span');
 
-   prespan.innerHTML = `
+                const tonebutton = document.createElement('button')
+                tonebutton.innerHTML = data.cardsec.cardone.buynow
+
+                tableonehead.appendChild(tonebutton)
+
+
+
+
+
+        
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                // secondtable
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                const table2 = document.querySelector('.popularcard .card.two')
+
+
+
+                const table2head = document.querySelector(".popularcard .card.two .cardhead")
+
+                const t2head = document.createElement('h2')
+                t2head.innerHTML = data.cardsec.cardone.head
+
+
+
+                table2head.appendChild(t2head)
+
+
+
+                const t2span = document.createElement('span');
+
+                t2span.innerHTML = `
+                          <span class="amount">${data.cardsec.cardone.amount}</span>
+                           ${data.cardsec.cardone.sub}`;
+                table2head.appendChild(t2span);
+
+
+
+
+
+                const t2auto = document.createElement('p')
+                t2auto.innerHTML = data.cardsec.cardone.auto
+                table2head.appendChild(t2auto)
+
+
+                const t2price = document.createElement('h4')
+                t2price.innerHTML = data.cardsec.cardone.price
+
+                table2head.appendChild(t2price)
+
+
+
+                const t2button = document.createElement('button')
+                t2button.innerHTML = data.cardsec.cardone.buynow
+
+                table2head.appendChild(t2button)
+
+                
+                table2.appendChild(table2head)
+
+
+
+
+
+
+                // third table
+
+
+                const table3 = document.querySelector('.popularcard .card.three')
+
+
+
+
+
+                const table3head = document.querySelector(".popularcard .card.two .cardhead")
+
+                const t3head = document.createElement('h2')
+                t3head.innerHTML = data.cardsec.cardone.head
+
+
+
+                table3head.appendChild(t3head)
+
+
+
+                const t3span = document.createElement('span');
+
+                t3span.innerHTML = `
+                          <span class="amount">${data.cardsec.cardone.amount}</span>
+                           ${data.cardsec.cardone.sub}`;
+                table3head.appendChild(t3span);
+
+
+
+
+
+                const t3auto = document.createElement('p')
+                t3auto.innerHTML = data.cardsec.cardone.auto
+                table3head.appendChild(t3auto)
+
+
+                const t3price = document.createElement('h4')
+                t3price.innerHTML = data.cardsec.cardone.price
+
+                table3head.appendChild(t3price)
+
+
+
+                const t3button = document.createElement('button')
+                t3button.innerHTML = data.cardsec.cardone.buynow
+
+                table3head.appendChild(t3button)
+
+
+
+                table3.appendChild(table3head)
+
+
+                // premium ====================================
+
+
+
+
+
+
+
+
+
+                const premium = document.querySelector(".pre1")
+
+                const prehead = document.createElement('h2')
+                prehead.innerHTML = data.premium.head
+                premium.appendChild(prehead)
+
+
+
+
+                const prespan = document.createElement('span');
+
+                prespan.innerHTML = `
         <span class="amount">${data.premium.amount}</span>
          ${data.cardsec.cardone.sub}
        `;
-   premium.appendChild(prespan);
+                premium.appendChild(prespan);
 
 
-   const preauto = document.createElement('p')
-   preauto.innerHTML = data.cardsec.cardone.auto
-   premium.appendChild(preauto)
+                const preauto = document.createElement('p')
+                preauto.innerHTML = data.cardsec.cardone.auto
+                premium.appendChild(preauto)
 
-   const preprice = document.createElement('h4')
-   preprice.innerHTML = data.cardsec.cardone.price
-   premium.appendChild(preprice)
-
-
-
-   const prebutton = document.createElement('button')
-   prebutton.innerHTML = data.cardsec.cardone.buynow
-   premium.appendChild(prebutton)
-
-
-   const prelearn = document.createElement('h3')
-   prelearn.innerHTML = `<a href = "" >${data.premium.learn} <img src="${data.cardsec.cardone.tryimg}"></a>`
-   premium.appendChild(prelearn)
+                const preprice = document.createElement('h4')
+                preprice.innerHTML = data.cardsec.cardone.price
+                premium.appendChild(preprice)
 
 
 
+                const prebutton = document.createElement('button')
+                prebutton.innerHTML = data.cardsec.cardone.buynow
+                premium.appendChild(prebutton)
 
 
- const pre2 =document.querySelector(".pre2")
- const presub =document.createElement('h3')
- presub.innerHTML=data.premium.subhead
- pre2.appendChild(presub)
-
-
- const predata = document.getElementById("predata")
- data.premium.data.forEach(item =>{
-    const list=document.createElement('li')
-    list.innerHTML=`<img src="${item.img}"> ${item.content}`
-    predata.appendChild(list)
- })
-pre2.appendChild(predata)
+                const prelearn = document.createElement('h3')
+                prelearn.innerHTML = `<a href = "" >${data.premium.learn} <img src="${data.cardsec.cardone.tryimg}"></a>`
+                premium.appendChild(prelearn)
 
 
 
+
+
+                const pre2 = document.querySelector(".pre2")
+                const presub = document.createElement('h3')
+                presub.innerHTML = data.premium.subhead
+                pre2.appendChild(presub)
+
+
+                const predata = document.getElementById("predata")
+                data.premium.data.forEach(item => {
+                    const list = document.createElement('li')
+                    list.innerHTML = `<img src="${item.img}"> ${item.content}`
+                    predata.appendChild(list)
+                })
+                pre2.appendChild(predata)
 
 
 
@@ -405,42 +572,298 @@ pre2.appendChild(predata)
 
 
 
-
-
-    const pilot=document.querySelector(".pilotdata")
-    const head =document.createElement('h2')
-    head.innerHTML=data.pilot.head
-    pilot.appendChild(head)
-
-    const p1 =document.createElement('p')
-    p1.innerHTML=` <a href ="${data.pilot.url} "> ${data.pilot.link}</a>     ${data.pilot.p1}`
-    pilot.appendChild(p1)
-
-
-    const p2 =document.createElement('p')
-    p2.innerHTML=data.pilot.p2
-    pilot.appendChild(p2)
+                // pilot 
 
 
 
-    const pilotbutton=document.querySelector(".buttonsec")
-    const b1 =document.createElement('div')
-    b1.innerHTML=`<button class ="price ">${data.pilot.btn1}</button>`
-    pilotbutton.appendChild(b1)
+
+                const pilot = document.querySelector(".pilotdata")
+                const head = document.createElement('h2')
+                head.innerHTML = data.pilot.head
+                pilot.appendChild(head)
+
+                const p1 = document.createElement('p')
+                p1.innerHTML = ` <a href ="${data.pilot.url} "> ${data.pilot.link}</a>     ${data.pilot.p1}`
+                pilot.appendChild(p1)
 
 
-    const b2 =document.createElement('div')
-    b2.innerHTML=`<button class =" learn ">${data.pilot.btn2}</button>`
-    pilotbutton.appendChild(b2)
+                const p2 = document.createElement('p')
+                p2.innerHTML = data.pilot.p2
+                pilot.appendChild(p2)
 
-    pilot.append( pilotbutton)
 
-   
-        const imageUrl = data.pilot.image; 
-        const img = document.createElement('img'); 
-        img.src = imageUrl; 
-        document.querySelector('.pilotimage').appendChild(img);
-      
+
+                const pilotbutton = document.querySelector(".buttonsec")
+                const b1 = document.createElement('div')
+                b1.innerHTML = `<button class ="price ">${data.pilot.btn1}</button>`
+                pilotbutton.appendChild(b1)
+
+
+                const b2 = document.createElement('div')
+                b2.innerHTML = `<button class =" learn ">${data.pilot.btn2}</button>`
+                pilotbutton.appendChild(b2)
+
+                pilot.append(pilotbutton)
+
+
+                const imageUrl = data.pilot.image;
+                const img = document.createElement('img');
+                img.src = imageUrl;
+                document.querySelector('.pilotimage').appendChild(img);
+
+
+
+
+
+
+
+
+                // frequently asked questions 
+
+
+
+
+                const main_frequency = document.querySelector('.frequency')
+
+
+
+                const frequency = document.querySelector('.subfrequency')
+
+                const frequency_head = document.createElement('h2')
+
+                frequency_head.innerHTML = data.frequency.head
+                frequency.appendChild(frequency_head)
+
+                main_frequency.appendChild(frequency)
+
+                const links = document.querySelector('.links')
+
+                const linkone = document.createElement('p')
+                linkone.innerHTML = `<a  href ="# " class="firstlink">${data.frequency.link1}</a>`
+
+                links.appendChild(linkone)
+
+
+
+                const linktwo = document.createElement('p')
+                linktwo.innerHTML = `<a class="seclink">${data.frequency.link2}</a>`
+
+                links.appendChild(linktwo)
+
+
+                main_frequency.appendChild(links)
+
+
+
+
+                const ques_sec = document.querySelector('.question')
+                data.frequency.questions.forEach(item => {
+                    const question = document.createElement('div')
+                    question.innerHTML = `<img src="${item.img}">${item.ques}`
+                    ques_sec.appendChild(question)
+
+                })
+                main_frequency.appendChild(ques_sec)
+
+
+
+
+
+
+
+
+
+
+
+                // see more options
+
+                const option = document.querySelector('.suboptions')
+                const optionhead = document.createElement('h2')
+
+                optionhead.innerHTML = data.options.head
+                option.appendChild(optionhead)
+
+
+                const optiondiv = document.querySelector('.options')
+                const optionsec = document.querySelector('.optul')
+                data.options.content.forEach(item => {
+                    const optiondata = document.createElement('li')
+                    optiondata.innerHTML = `<a href=""> <img src="${item.img}">${item.data}</a>`
+                    optionsec.appendChild(optiondata)
+                    optiondiv.appendChild(optiondata)
+
+
+
+                })
+                option.appendChild(optiondiv)
+
+
+
+
+                // micro team section
+
+                const mainmicro = document.querySelector('.submicro')
+
+                const microsec = document.querySelector('.microdata')
+                const microhead = document.createElement('h2')
+                microhead.innerHTML = data.microsec.head
+                microsec.appendChild(microhead)
+
+
+
+
+
+                const microbtn = document.getElementById('microbutton')
+                const bt1 = document.createElement('button')
+                bt1.innerHTML = `<button class="microb1">${data.microsec.btn1}</button>`
+                microbtn.appendChild(bt1)
+
+                const bt2 = document.createElement('button')
+                bt2.innerHTML = `<button class="microb2">${data.microsec.btn2}</button>`
+                microbtn.appendChild(bt2)
+
+
+                microsec.appendChild(microbtn)
+
+
+                const linksec = document.getElementById('goto')
+                linksec.innerHTML = `<a href=""> <span>${data.microsec.link}</span> <img src="${data.microsec.img}"</a>`
+                microsec.appendChild(linksec)
+
+
+
+
+
+
+
+
+                const microimgsec = document.querySelector('.microimg')
+
+                data.microsec.rightsec.forEach(item => {
+                    const section = document.createElement('div')
+                    // section.classList.add('img_section')
+                    const image = ` <div class="imgsec">
+
+                       <img src="${item.img}"></div>`
+
+
+                    const datasec = document.createElement('div')
+
+                    // section.classList.add('data_section')
+                    datasec.innerHTML = `<div class="datasec">
+                   ${item.data.head} 
+                    <a href="">${item.data.link} <img src="${item.data.arrow}"></a>
+                    </div>`
+
+                    section.innerHTML = image
+
+                    section.appendChild(datasec)
+
+                    microimgsec.appendChild(section)
+
+                })
+
+
+
+
+
+
+
+
+                // policies
+
+                const policy = document.querySelector('.terms')
+                data.policies.forEach(item => {
+                    const term = document.createElement('li')
+                    term.innerHTML = item
+
+                    policy.appendChild(term)
+                })
+
+
+
+
+
+                // social sections
+
+                const social = document.querySelector('.subsocial')
+                const socialdata = document.getElementById('socialdata')
+
+                socialdata.innerHTML = data.social.data
+
+                const socialimg = document.getElementById('socialimg')
+                data.social.image.forEach(item => {
+                    const list = document.createElement("li")
+                    list.innerHTML = `<a href =' '>
+                    <img src="${item.img}"></a>`
+
+                    socialimg.appendChild(list)
+                })
+
+
+
+
+
+
+                // footer 
+
+
+
+
+
+                const footercontainer = document.getElementById('footer-container');
+                const sections = data.footer.sections;
+
+                sections.forEach(item => {
+                    const footer = document.createElement('div');
+                    footer.classList.add('footer-section');
+
+                    const head = document.createElement('h3');
+                    head.textContent = item.title;
+                    footer.appendChild(head);
+
+                    const footlist = document.createElement('ul');
+                    item.data.forEach(item => {
+                        const list = document.createElement('li');
+                        list.textContent = item;
+                        footlist.appendChild(list);
+                    });
+
+                    footer.appendChild(footlist);
+                    footercontainer.appendChild(footer);
+                })
+
+
+                const span1 = document.getElementById('spanone')
+                span1.innerHTML = `<img src="${data.footerbottom.left.img1}">
+             ${data.footerbottom.left.data1}`
+                const span2 = document.getElementById('spantwo')
+                span2.innerHTML = `<img src="${data.footerbottom.left.img2}">
+              ${data.footerbottom.left.data2}`
+                const span3 = document.getElementById('spanthree')
+                span3.innerHTML = `${data.footerbottom.left.data3}`
+
+
+
+
+
+                const footright = document.querySelector('.foot2ul')
+
+                data.footerbottom.right.forEach(item => {
+                    const items = document.createElement('li')
+                    items.innerHTML = item
+
+                    footright.appendChild(items)
+                })
+
+
+
+
+
+
+
+
+
 
 
             })
