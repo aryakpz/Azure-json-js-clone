@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ Dropdown</title>
+    <style>
+        .frequency {
+            padding-top: 80px;
+            padding-left: 1%;
+            padding-right: 1%;
+            margin: 0 auto;
+            width: 100%;
+            box-sizing: content-box;
+            font-family: "sreg";
+            position: relative;
+            min-width: 1px;
+            word-wrap: break-word;
+            padding-bottom: 60px;
+        }
+
+        .subfrequency {
+            box-sizing: content-box;
+            display: grid;
+            max-width: 1600px;
+            margin-inline: auto;
+            width: 100%;
+            height: auto;
+            min-height: 5.5px;
+            max-height: max-content;
+            font-family: "sreg";
+        }
+
+        .subfrequency h2 {
+            font-size: 35px;
+            font-weight: 500;
+            line-height: 3;
+        }
+
+        .links {
+            display: flex;
+            gap: 40px;
+            flex-flow: row;
+            color: rgb(69, 65, 65);
+            font-family: "sreg";
+        }
+
+        .firstlink {
+            color: #0067b8;
+        }
+
+        .question div {
+            font-size: 15px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            display: flex;
+            border-top: 1px solid rgb(171, 167, 167);
+            cursor: pointer;
+        }
+
+        .question div img {
+            width: 20px !important;
+            padding-right: 10px;
+            max-height: 25px;
+        }
+
+        .answer {
+            display: none;
+            font-size: 14px;
+            padding-left: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="frequency">
+        <div class="subfrequency">
+            <div class="links"></div>
+            <div class="question"></div>
+        </div>
+    </div>
+
+    <script>
+        const data = {
+            frequency: {
+                head: "Frequently Asked Questions",
+                link1: "Link 1",
+                link2: "Link 2",
+                questions: [
+                    {
+                        img: "question1.png",
+                        ques: "Question 1?",
+                        answer: "Answer to question 1."
+                    },
+                    {
+                        img: "question2.png",
+                        ques: "Question 2?",
+                        answer: "Answer to question 2."
+                    },
+                    {
+                        img: "question3.png",
+                        ques: "Question 3?",
+                        answer: "Answer to question 3."
+                    }
+                ]
+            }
+        };
+
+        document.addEventListener("DOMContentLoaded", () => {
+            const mainFrequency = document.querySelector('.frequency');
+            const subFrequency = document.querySelector('.subfrequency');
+
+            const frequencyHead = document.createElement('h2');
+            frequencyHead.innerHTML = data.frequency.head;
+            subFrequency.appendChild(frequencyHead);
+
+            const links = document.querySelector('.links');
+
+            const linkOne = document.createElement('p');
+            linkOne.innerHTML = `<a href="#" class="firstlink">${data.frequency.link1}</a>`;
+            links.appendChild(linkOne);
+
+            const linkTwo = document.createElement('p');
+            linkTwo.innerHTML = `<a class="seclink">${data.frequency.link2}</a>`;
+            links.appendChild(linkTwo);
+
+            const questionSection = document.querySelector('.question');
+            data.frequency.questions.forEach(item => {
+                const questionDiv = document.createElement('div');
+                questionDiv.innerHTML = `<img src="${item.img}">${item.ques}`;
+                const answerDiv = document.createElement('div');
+                answerDiv.className = 'answer';
+                answerDiv.innerText = item.answer;
+                questionDiv.appendChild(answerDiv);
+                questionSection.appendChild(questionDiv);
+
+                questionDiv.addEventListener('click', () => {
+                    answerDiv.style.display = answerDiv.style.display === 'block' ? 'none' : 'block';
+                });
+            });
+
+            mainFrequency.appendChild(subFrequency);
+        });
+    </script>
+</body>
+</html>

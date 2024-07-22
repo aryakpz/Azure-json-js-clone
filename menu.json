@@ -6,32 +6,32 @@
             {
                 "name": "Products",
                 "url": "#products",
-                "icon": "icons/down_arrow.png"
+                "icon": "icons/arrow.png"
             },
             {
                 "name": "Features",
                 "url": "#Features",
-                "icon": "icons/down_arrow.png"
+                "icon": "icons/arrow.png"
             },
             {
                 "name": "Pricing",
                 "url": "#pricing",
-                "icon": "icons/down_arrow.png"
+                "icon": "icons/arrow.png"
             },
             {
                 "name": "Industries",
                 "url": "#industries",
-                "icon": "icons/down_arrow.png"
+                "icon": "icons/arrow.png"
             },
             {
                 "name": "Resources",
                 "url": "#resources",
-                "icon": "icons/down_arrow.png"
+                "icon": "icons/arrow.png"
             },
             {
                 "name": "Support",
                 "url": "#support",
-                "icon": "icons/down_arrow.png"
+                "icon": "icons/arrow.png"
             }
         ],
         "download": {
@@ -45,16 +45,26 @@
     },
     "subhead": {
         "busplan": {
-            "name": "Business plans",
+            "name": "Business Plans",
             "url": "#business"
         },
         "home": {
-            "name": "Home plans",
+            "name": "Home Plans",
             "url": "#home"
         },
         "microdata": " Find the right Microsoft Teams for your needs ",
         "subdata": "Stay connected and share content any time to learn, plan, and innovate—together. Get more with Teams Essentials or get Teams online as part of Microsoft 365."
     },
+
+   "hide":
+   {
+    "team":"Teams",
+    "teamicon": "icons/down_arrow.png",
+    "menu":"icons/menu-horizontal.svg"
+   },
+
+"url":"https://www.microsoft.com/en-gb/microsoft-teams/compare-microsoft-teams-business-options",
+
     "cardsec": {
         "cardone": {
             "top": "Most popular",
@@ -309,6 +319,52 @@
             "data": "Checkmark icons indicate a feature is included"
         }
     ],
+    "tablebottom": {
+        "data": [
+            {
+                "img": "icons/arrow_right.png",
+                "content": "Metting and Calling",
+                "tick1": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/checkmark-outline-svg-dark-blue?scl=1",
+                "tick2": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/checkmark-outline-svg-dark-blue?scl=1",
+                "tick3": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/checkmark-outline-svg-dark-blue?scl=1"
+            },
+            {
+                "img": "icons/arrow_right.png",
+                "content": "Chat and collaboration",
+                "tick1": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/checkmark-svg-dark-blue?scl=1",
+                "tick2": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/checkmark-svg-dark-blue?scl=1",
+                "tick3": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/checkmark-svg-dark-blue?scl=1"
+            },
+            {
+                "img": "icons/arrow_right.png",
+                "content": "Al powerd assistance",
+                "tick1": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/checkmark-svg-dark-blue?scl=",
+                "tick2": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/checkmark-svg-dark-blue?scl=",
+                "tick3": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/checkmark-outline-svg-dark-blue?scl=1"
+            },
+            {
+                "img": "icons/arrow_right.png",
+                "content": "Productivity apps and services",
+                "tick1": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/checkmark-outline-svg-dark-blue?scl=1",
+                "tick2": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/checkmark-outline-svg-dark-blue?scl=1",
+                "tick3": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/checkmark-outline-svg-dark-blue?scl=1"
+            },
+            {
+                "img": "icons/arrow_right.png",
+                "content": "Security and compliance",
+                "tick1": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/checkmark-outline-svg-dark-blue?scl=1",
+                "tick2": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/checkmark-svg-dark-blue?scl=1",
+                "tick3": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/checkmark-svg-dark-blue?scl=1"
+            },
+            {
+                "img": "icons/arrow_right.png",
+                "content": "Administration and support",
+                "tick1": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/checkmark-outline-svg-dark-blue?scl=1",
+                "tick2": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/checkmark-svg-dark-blue?scl=1",
+                "tick3": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/checkmark-svg-dark-blue?scl=1"
+            }
+        ]
+    },
     "premium": {
         "head": "Microsoft 365 Business Premium",
         "amount": " £18.10",
@@ -346,31 +402,52 @@
         "questions": [
             {
                 "img": "icons/arrow_right.png",
-                "ques": "What is the right plan for my business?"
+                "ques": "What is the right plan for my business?",
+                "answer":"Teams Essentials is designed for a small business in need of an affordable, professional, easy-to-use meeting solution with video and audio calling. Meet all day up to 30 hours, host up to 300 participants, and get 10 GB of cloud storage with Teams Essentials.\nTo get the full Microsoft 365 experience, with access to apps like Excel, PowerPoint, and Outlook, as well as an email domain and Exchange calendar integration, try Microsoft 365 Business Standard. \n Learn more about choosing the right subscription based on the apps you need, knowledge required, and data handling considerations."
             },
             {
                 "img": "icons/arrow_right.png",
-                "ques": "How can I access premium ?"
+                "ques": "How can I access premium ?",
+                "answer":"Access premium benefits for Teams with the purchase of Microsoft 365 and Office 365 subscriptions that have a Teams license, or with a standalone offering of Teams Essentials for small and medium-sized business customers or Teams Enterprise for enterprise customers."
+            },
+
+            {
+                "img": "icons/arrow_right.png",
+                "ques": "Another question?",
+                "answer": "Another answer.\nWith multiple lines.\nAnd a link <a href=\"#\">here</a>."
+            },
+
+
+            {
+                "img": "icons/arrow_right.png",
+                "ques": "How do I manage my Teams Essential subscription and invite others to join? Would a small or medium-sized business need to purchase multiple accounts for its employees?",
+                "answer":"Teams Essentials allows you to pay on behalf of up to 50 users. In the Microsoft 365 admin center, select Invite people to Microsoft 365. Add each person’s first name, last name, and email addresses and choose Send. The people you added will receive an invitation email to add their user account information to Microsoft 365."
             },
             {
                 "img": "icons/arrow_right.png",
-                "ques": "How do I manage my Teams Essential subscription and invite others to join? Would a small or medium-sized business need to purchase multiple accounts for its employees?"
+                "ques": "What forms of payment can I use?",
+                "answer":"Credit cards are accepted. We don’t accept PayPal, Venmo, and other similar services."
             },
             {
                 "img": "icons/arrow_right.png",
-                "ques": "What forms of payment can I use?"
+                "ques": "Once I upgrde, can I go back to the free  version of Teams?",
+                "answer":"No, once you upgrade and convert from a free account to a paid account, you can’t revert to the free version using the same email address. The email address associated with your converted account can no longer be associated with a free account. To create a new free account, use a different email address (both for the admin and for each user)."
+            },
+
+            {
+                "img": "icons/arrow_right.png",
+                "ques": "Can I upgrde some users to microsoft 365 and keep others on the free  version of Teams?",
+                "answer":"No, all users in your organization must be upgraded and will have access to the full version of Teams and all Microsoft 365 services. Learn more about upgrading from Teams free to a paid subscription (for admins)."
             },
             {
                 "img": "icons/arrow_right.png",
-                "ques": "Once I upgrde, can I go back to the free  version of Teams?"
+                "ques": "Can I buy Teams Essential through a cloud solution provider?",
+                "answer":" Yes, you can purchase Teams Essentials through any cloud solution provider. When purchased through a provider, Microsoft Teams Essentials with Microsoft Entra ID (formerly Azure Active Directory) includes additional features at the same price as Teams Essentials purchased from our website. This is because Teams Essentials uses Microsoft Entra for identity management instead of Microsoft Accounts. Additional features include Teams channels, Whiteboard, meeting recordings, real-time translation, breakout rooms, meeting notes, noise suppression, third-party app extensibility, and centralized management and configuration.\nBuy Teams Essentials from a cloud solution provider."
             },
             {
                 "img": "icons/arrow_right.png",
-                "ques": "Can I buy Teams Essential through a cloud solution provider?"
-            },
-            {
-                "img": "icons/arrow_right.png",
-                "ques": "Can I buy Teams Essential on behalf of a child?"
+                "ques": "Can I buy Teams Essential on behalf of a child?",
+                "answer":"Yes. A child can’t purchase Teams Essentials on their own."
             }
         ]
     },
@@ -422,7 +499,10 @@
     "microsec": {
         "head": "Get started with Microsoft Teams today ",
         "btn1": "Sign In",
-        "btn2": "Download the App",
+        "bt1link":"https://teams.microsoft.com/v2/?culture=en-gb&country=gb",
+          "btn2": "Download the App",
+          "bt2link":"https://www.microsoft.com/en-gb/microsoft-teams/download-app",
+       
         "link": "Go to the Teams homepage",
         "img": "icons/arrow_right.png",
         "rightsec": [

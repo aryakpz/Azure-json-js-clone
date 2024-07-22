@@ -3,8 +3,11 @@ document.addEventListener('DOMContentLoaded', async () => {
     {
 
         await fetch('menu.json')
+
             .then(response => response.json())
             .then(data => {
+
+
                 const logos = document.getElementById('logo')
                 logos.src = data.nav.image;
 
@@ -25,10 +28,21 @@ document.addEventListener('DOMContentLoaded', async () => {
                 const downbutton = document.createElement('button')
                 downbutton.innerHTML = data.nav.download.name
                 rightb.appendChild(downbutton)
+
+
                 const signbutton = document.createElement('button')
                 signbutton.innerHTML = data.nav.sign.name
                 rightb.appendChild(signbutton)
 
+
+                // hide art
+
+                const menu = document.getElementById('menuicon')
+                menu.src = data.hide.menu
+
+
+                const hideteam = document.getElementById('team')
+                hideteam.innerHTML = `<p>${data.hide.team} <img src="${data.hide.teamicon}"></p>`
 
 
                 // subhead part 
@@ -36,9 +50,20 @@ document.addEventListener('DOMContentLoaded', async () => {
 
                 const businessel = document.getElementById('bplans')
                 businessel.innerHTML = data.subhead.busplan.name
+                businessel.addEventListener("click", () => {
+                    const url = data.subhead.busplan.name.url;
+                    window.location.href = url;
+                })
 
                 const homeel = document.getElementById('hplans')
                 homeel.innerHTML = data.subhead.home.name
+
+                homeel.addEventListener("click", () => {
+                    const url = data.subhead.home.name.url;
+
+                    window.location.href = url;
+                })
+
 
 
                 const micro = document.getElementById("microdata")
@@ -263,8 +288,8 @@ document.addEventListener('DOMContentLoaded', async () => {
                 data.cardsec.cardthree.datas.forEach(item => {
                     const listdatathree = document.createElement('li');
                     listdatathree.innerHTML = `<span>
-            <img src="${item.img}">
-            ${item.content}</span>`;
+                    <img src="${item.img}">
+                    ${item.content}</span>`;
                     cardthreelist.appendChild(listdatathree);
                 });
 
@@ -353,25 +378,6 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 
 
-        
-            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -383,16 +389,6 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 
 
-
-
-
-
-
-
-
-
-
-
                 const table2 = document.querySelector('.popularcard .card.two')
 
 
@@ -400,7 +396,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 const table2head = document.querySelector(".popularcard .card.two .cardhead")
 
                 const t2head = document.createElement('h2')
-                t2head.innerHTML = data.cardsec.cardone.head
+                t2head.innerHTML = data.cardsec.cardtwo.head
 
 
 
@@ -411,7 +407,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 const t2span = document.createElement('span');
 
                 t2span.innerHTML = `
-                          <span class="amount">${data.cardsec.cardone.amount}</span>
+                          <span class="amount">${data.cardsec.cardtwo.amount}</span>
                            ${data.cardsec.cardone.sub}`;
                 table2head.appendChild(t2span);
 
@@ -436,8 +432,21 @@ document.addEventListener('DOMContentLoaded', async () => {
 
                 table2head.appendChild(t2button)
 
-                
-                table2.appendChild(table2head)
+
+
+
+
+
+                const t2try = document.createElement('h3')
+                t2try.innerHTML = `<a href= ''>${data.cardsec.cardone.try} <img src="${data.cardsec.cardone.tryimg}"></a>`
+                table2head.appendChild(t2try)
+
+                const t2trial = document.createElement('h6')
+                t2trial.innerHTML = data.cardsec.cardone.trial
+                table2head.appendChild(t2trial)
+
+
+                // table2.appendChild(table2head)
 
 
 
@@ -453,10 +462,10 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 
 
-                const table3head = document.querySelector(".popularcard .card.two .cardhead")
+                const table3head = document.querySelector(".popularcard .card.three .cardhead")
 
                 const t3head = document.createElement('h2')
-                t3head.innerHTML = data.cardsec.cardone.head
+                t3head.innerHTML = data.cardsec.cardthree.head
 
 
 
@@ -467,7 +476,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 const t3span = document.createElement('span');
 
                 t3span.innerHTML = `
-                          <span class="amount">${data.cardsec.cardone.amount}</span>
+                          <span class="amount">${data.cardsec.cardthree.amount}</span>
                            ${data.cardsec.cardone.sub}`;
                 table3head.appendChild(t3span);
 
@@ -494,7 +503,299 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 
 
-                table3.appendChild(table3head)
+
+
+
+                const t3try = document.createElement('h3')
+                t3try.innerHTML = `<a href =' '>${data.cardsec.cardone.try} <img src="${data.cardsec.cardone.tryimg}"></a>`
+                table3head.appendChild(t3try)
+
+                const t3trial = document.createElement('h6')
+                t3trial.innerHTML = data.cardsec.cardone.trial
+                table3head.appendChild(t3trial)
+
+
+
+
+                // table3.appendChild(table3head)
+
+
+
+
+
+
+
+
+                //  table next part   
+
+
+                const popularbottom = document.querySelector('.subbottom')
+
+
+                const link = document.querySelector('.subbottom .link')
+
+                const link1 = document.createElement('p')
+                link1.innerHTML = `<a  href ="# " class="firstlink">${data.frequency.link1}</a>`
+
+                link.appendChild(link1)
+
+
+
+                const link2 = document.createElement('p')
+
+                link2.innerHTML = `<a class="seclink">${data.frequency.link2}</a>`
+
+                link.appendChild(link2)
+
+                popularbottom.appendChild(link)
+
+
+
+
+
+                const mainpopular = document.querySelector('.mainbootompopular')
+                const bottompopular = document.querySelector('.subpopulardata')
+
+                data.tablebottom.data.forEach(item => {
+                    const tabledata = document.createElement('div')
+
+                    tabledata.innerHTML = `
+                        <div class="datafirst">
+                            <img src="${item.img}">
+                            ${item.content}
+                        </div>
+                        <div class="datasecond">
+                        <div id="one"><img src="${item.tick1}" ></div>
+                        <div id="two"><img src="${item.tick2}" ></div>
+                        <div id="three"><img src="${item.tick3}" ></div>
+                        </div>
+                        `
+                    bottompopular.appendChild(tabledata)
+
+                    const tabdata = bottompopular.querySelector('.datafirst')
+                    const plink =  popularbottom.querySelector('.seclink')
+                    tabdata.addEventListener('click',function(){
+                        le()
+                      
+                       
+                    });
+
+                    function le(){
+
+                    plink.style.color = 'blue' 
+                    }
+                  console.log(tabledata)
+        
+                  
+                })
+
+                mainpopular.appendChild(bottompopular)
+
+
+
+
+
+                // the another table
+
+                // first table
+
+                const poptable1 = document.querySelector(' .mainpopular2 .popularcard .card.one')
+
+                const poptabletop = document.querySelector(".mainpopular2 .popularcard .card.one .cardtop")
+                poptabletop.innerHTML = data.cardsec.cardone.top
+
+
+
+                const poptableonehead = document.querySelector(".mainpopular2 .popularcard .card.one .cardhead")
+
+                const poptonehead = document.createElement('h2')
+                poptonehead.innerHTML = data.cardsec.cardone.head
+
+
+
+                poptableonehead.appendChild(poptonehead)
+
+
+
+                const poptonespan = document.createElement('span');
+
+                poptonespan.innerHTML = `
+                          <span class="amount">${data.cardsec.cardone.amount}</span>
+                           ${data.cardsec.cardone.sub}`;
+                poptableonehead.appendChild(poptonespan);
+
+
+
+
+
+                const poptoneauto = document.createElement('p')
+                poptoneauto.innerHTML = data.cardsec.cardone.auto
+                poptableonehead.appendChild(poptoneauto)
+
+
+                const poptoneprice = document.createElement('h4')
+                poptoneprice.innerHTML = data.cardsec.cardone.price
+
+                poptableonehead.appendChild(poptoneprice)
+
+
+
+                const poptonebutton = document.createElement('button')
+                poptonebutton.innerHTML = data.cardsec.cardone.buynow
+
+                poptableonehead.appendChild(poptonebutton)
+
+
+
+
+
+
+
+
+
+
+
+                // secondtable
+
+
+
+
+                const poptable2 = document.querySelector('.mainpopular2 .popularcard .card.two')
+
+
+
+                const poptable2head = document.querySelector(".mainpopular2 .popularcard .card.two .cardhead")
+
+                const popt2head = document.createElement('h2')
+                popt2head.innerHTML = data.cardsec.cardtwo.head
+
+
+
+                poptable2head.appendChild(popt2head)
+
+
+
+                const popt2span = document.createElement('span');
+
+                popt2span.innerHTML = `
+                          <span class="amount">${data.cardsec.cardtwo.amount}</span>
+                           ${data.cardsec.cardone.sub}`;
+                poptable2head.appendChild(popt2span);
+
+
+
+
+
+                const popt2auto = document.createElement('p')
+                popt2auto.innerHTML = data.cardsec.cardone.auto
+                poptable2head.appendChild(popt2auto)
+
+
+                const popt2price = document.createElement('h4')
+                popt2price.innerHTML = data.cardsec.cardone.price
+
+                poptable2head.appendChild(popt2price)
+
+
+
+                const popt2button = document.createElement('button')
+                popt2button.innerHTML = data.cardsec.cardone.buynow
+
+                poptable2head.appendChild(popt2button)
+
+
+
+
+
+
+                const popt2try = document.createElement('h3')
+                popt2try.innerHTML = `<a href= ''>${data.cardsec.cardone.try} <img src="${data.cardsec.cardone.tryimg}"></a>`
+                poptable2head.appendChild(popt2try)
+
+                const popt2trial = document.createElement('h6')
+                popt2trial.innerHTML = data.cardsec.cardone.trial
+                poptable2head.appendChild(popt2trial)
+
+
+                // table2.appendChild(table2head)
+
+
+
+
+
+
+                // third table
+
+
+                const poptable3 = document.querySelector('.mainpopular2 .popularcard .card.three')
+
+
+
+
+
+                const poptable3head = document.querySelector(".mainpopular2 .popularcard .card.three .cardhead")
+
+                const popt3head = document.createElement('h2')
+                popt3head.innerHTML = data.cardsec.cardthree.head
+
+
+
+                poptable3head.appendChild(popt3head)
+
+
+
+                const popt3span = document.createElement('span');
+
+                popt3span.innerHTML = `
+                          <span class="amount">${data.cardsec.cardthree.amount}</span>
+                           ${data.cardsec.cardone.sub}`;
+                poptable3head.appendChild(popt3span);
+
+
+
+
+
+                const popt3auto = document.createElement('p')
+                popt3auto.innerHTML = data.cardsec.cardone.auto
+                poptable3head.appendChild(popt3auto)
+
+
+                const popt3price = document.createElement('h4')
+                popt3price.innerHTML = data.cardsec.cardone.price
+
+                poptable3head.appendChild(popt3price)
+
+
+
+                const popt3button = document.createElement('button')
+                popt3button.innerHTML = data.cardsec.cardone.buynow
+
+                poptable3head.appendChild(popt3button)
+
+
+
+
+
+
+                const popt3try = document.createElement('h3')
+                popt3try.innerHTML = `<a href =' '>${data.cardsec.cardone.try} <img src="${data.cardsec.cardone.tryimg}"></a>`
+                poptable3head.appendChild(popt3try)
+
+                const popt3trial = document.createElement('h6')
+                popt3trial.innerHTML = data.cardsec.cardone.trial
+                poptable3head.appendChild(popt3trial)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
                 // premium ====================================
@@ -659,20 +960,33 @@ document.addEventListener('DOMContentLoaded', async () => {
                 const ques_sec = document.querySelector('.question')
                 data.frequency.questions.forEach(item => {
                     const question = document.createElement('div')
-                    question.innerHTML = `<img src="${item.img}">${item.ques}`
+                    const questiondiv = document.createElement('div')
+                    questiondiv.className = 'questiondiv'
+                    questiondiv.innerHTML = `<img src="${item.img}" class="i">${item.ques}`
+                    question.appendChild(questiondiv)
                     ques_sec.appendChild(question)
+
+                    const answer = document.createElement('div');
+                    answer.className = 'answer';
+                    answer.innerText = item.answer;
+                    question.appendChild(answer);
+
+
+                    question.addEventListener('click', () => {
+                        answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+                        questiondiv.style.border = questiondiv.style.border === '3px dotted' ? '' : '3px dotted';
+                        questiondiv.style.paddingTop = questiondiv.style.paddingTop === '18px' ? '' : '18px'
+
+                        const img = questiondiv.querySelector('img');
+
+
+                        img.style.transform = img.style.transform === 'rotate(90deg)' ? 'rotate(0deg)' : 'rotate(90deg)';
+                        img.style.paddingTop = img.style.paddingTop === '10px' ? '' : '10px'
+
+                    });
 
                 })
                 main_frequency.appendChild(ques_sec)
-
-
-
-
-
-
-
-
-
 
 
                 // see more options
@@ -715,12 +1029,32 @@ document.addEventListener('DOMContentLoaded', async () => {
 
                 const microbtn = document.getElementById('microbutton')
                 const bt1 = document.createElement('button')
-                bt1.innerHTML = `<button class="microb1">${data.microsec.btn1}</button>`
+                bt1.innerHTML = `<a href="${data.microsec.bt1link}"><button class="microb1"> ${data.microsec.btn1}</button></a>`
                 microbtn.appendChild(bt1)
 
+
+
+               const bt=document.querySelector('.microb1')
+                bt.addEventListener('click',()=>{
+                   bt.style.border='3px dotted #5d5bd4';
+                
+                  
+                })
+
+
                 const bt2 = document.createElement('button')
-                bt2.innerHTML = `<button class="microb2">${data.microsec.btn2}</button>`
+                bt2.innerHTML = ` <a href="${data.microsec.bt2link}"><button class="microb2">${data.microsec.btn2}</button></a>`
                 microbtn.appendChild(bt2)
+
+                   
+
+               const but=document.querySelector('.microb2')
+               but.addEventListener('click',()=>{
+                  but.style.border='3px dotted white';
+               
+                 
+               })
+
 
 
                 microsec.appendChild(microbtn)
@@ -825,7 +1159,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                     const footlist = document.createElement('ul');
                     item.data.forEach(item => {
                         const list = document.createElement('li');
-                        list.textContent = item;
+                        list.innerHTML = `<a href="">${item}</a>`;
                         footlist.appendChild(list);
                     });
 
