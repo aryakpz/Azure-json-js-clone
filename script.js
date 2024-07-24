@@ -572,19 +572,19 @@ document.addEventListener('DOMContentLoaded', async () => {
                         `
                     bottompopular.appendChild(tabledata)
 
-                    const tabdata = bottompopular.querySelector('.datafirst')
-                    const plink =  popularbottom.querySelector('.seclink')
-                    tabdata.addEventListener('click',function(){
-                        le()
+                //     const tabdata = bottompopular.querySelector('.datafirst')
+                //     const plink =  popularbottom.querySelector('.seclink')
+                //     tabdata.addEventListener('click',function(){
+                //         le()
                       
                        
-                    });
+                //     });
 
-                    function le(){
+                //     function le(){
 
-                    plink.style.color = 'blue' 
-                    }
-                  console.log(tabledata)
+                //     plink.style.color = 'blue' 
+                //     }
+                //   console.log(tabledata)
         
                   
                 })
@@ -644,7 +644,6 @@ document.addEventListener('DOMContentLoaded', async () => {
                 poptonebutton.innerHTML = data.cardsec.cardone.buynow
 
                 poptableonehead.appendChild(poptonebutton)
-
 
 
 
@@ -820,9 +819,9 @@ document.addEventListener('DOMContentLoaded', async () => {
                 const prespan = document.createElement('span');
 
                 prespan.innerHTML = `
-        <span class="amount">${data.premium.amount}</span>
-         ${data.cardsec.cardone.sub}
-       `;
+                <span class="amount">${data.premium.amount}</span>
+                 ${data.cardsec.cardone.sub}
+                `;
                 premium.appendChild(prespan);
 
 
